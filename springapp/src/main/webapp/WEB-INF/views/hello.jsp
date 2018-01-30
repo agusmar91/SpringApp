@@ -14,5 +14,7 @@
     <c:forEach items="${model.products}" var="prod">
       <c:out value="${prod.description}"/> <i>$<c:out value="${prod.price}"/></i><br><br>
     </c:forEach>
+    <a href="<c:url value="priceincrease.htm"/>">Incrementar Precios</a>
     </div>
+    
 </html>
