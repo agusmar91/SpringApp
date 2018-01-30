@@ -1,3 +1,5 @@
+<%@ include file="/WEB-INF/views/include.jsp" %>
+
 <html>
   <head>
   	<title>Hola Mundo!</title>
@@ -6,7 +8,8 @@
   <body>
   <div align="center">
     <h1>Hola! Esto es una aplicacion con Spring!</h1>
-    <h3>Enhorabuena!!</h3>
+    <h3>Saludos!!</h3>
+    <p>Greetings, it is now <c:out value="${now}"/></p>
   </div>
   </body>
 </html>

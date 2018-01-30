@@ -1,3 +1,4 @@
+<%@ include file="/WEB-INF/views/include.jsp" %>
 <html>
 <head>
 <title>Pagina de servicios</title>
@@ -6,6 +7,7 @@
 <body>
 <div align="center">
 	<h1>Nuestros servicios</h1>
+	<p>Mi nombre es <c:out value="${nombre}"/></p>
 </div>
 </body>
 </html>
